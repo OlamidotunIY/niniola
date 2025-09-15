@@ -181,20 +181,8 @@ export default function BirthdayPage() {
                   href="#gallery"
                   className="inline-flex items-center px-4 py-2 rounded-lg bg-white border shadow hover:scale-105 transition"
                 >
-                  See the Memories
+                  Memories
                 </a>
-                <button
-                  onClick={() => {
-                    window.scrollTo({
-                      top: document.body.scrollHeight - 600,
-                      behavior: "smooth",
-                    });
-                    revealGift();
-                  }}
-                  className="inline-flex items-center px-4 py-2 rounded-lg bg-pink-500 text-white shadow hover:brightness-110 transition"
-                >
-                  Open Your Gift
-                </button>
               </div>
             </motion.div>
 
@@ -330,9 +318,7 @@ export default function BirthdayPage() {
 
         {/* Footer */}
         <footer className="mt-12 text-center text-gray-600 pb-6">
-          <p>
-            Made with ❤️ just for you.
-          </p>
+          <p>Made with ❤️ just for you.</p>
         </footer>
       </main>
 
