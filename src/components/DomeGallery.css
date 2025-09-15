@@ -196,3 +196,25 @@ main.sphere-main {
 .edge-fade--bottom {
   bottom: 0;
 }
+
+.dg-exit-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dg-exit-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

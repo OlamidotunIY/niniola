@@ -169,21 +169,13 @@ export default function BirthdayPage() {
               </h2>
               <p className="text-lg md:text-xl text-gray-700 mb-4">
                 We made this little corner of the web just for you — full of
-                memories, music, and a surprise gift waiting at the end.
+                memories.
               </p>
               <p className="text-base md:text-lg text-gray-600 mb-6">
                 You’re more than a friend to me — you’re family, joy, laughter,
                 and the brightest light in every room. This page is just a small
                 way of showing how much you mean to me today and always. 💖
               </p>
-              <div className="flex gap-3">
-                <a
-                  href="#gallery"
-                  className="inline-flex items-center px-4 py-2 rounded-lg bg-white border shadow hover:scale-105 transition"
-                >
-                  Memories
-                </a>
-              </div>
             </motion.div>
 
             <motion.div
